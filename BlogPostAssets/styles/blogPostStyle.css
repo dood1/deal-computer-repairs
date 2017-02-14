@@ -1,0 +1,698 @@
+@charset "UTF-8";
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-016x{color:#ffffff;vertical-align:top}
+.tg .tg-zq60{background-color:#ff0000;vertical-align:top}
+.tg .tg-u722{background-color:#34ff34;vertical-align:top}
+</style>
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+html{       
+    background-image:url('dwood.jpg');
+background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center     
+}   
+
+
+#mainwrapper header {
+ 
+	/*Header */
+
+	background-color: rgb(169,169,169);
+
+	overflow: auto;
+
+	font-family: arial;
+
+	font-style: normal;
+
+	font-weight: 400;
+
+}
+
+#mainwrapper header #logo {
+
+	/* Company Logo text */
+
+	width: 28%;
+
+	float: left;
+
+	padding-left: 2%;
+
+	padding-top: 12px;
+
+	padding-bottom: 12px;
+
+	color: black;
+
+}
+
+#mainwrapper header nav {
+
+	/*Nav bar containing links in header */
+
+	text-align: right;
+
+	padding-top: 12px;
+
+	padding-bottom: 12px;
+
+	padding-right: 2%;
+
+	width: 68%;
+
+	float: left;
+
+	color: black;
+
+}
+
+header nav a {
+
+	/* Links in header */
+
+	padding-right: 2%;
+
+}
+
+#content #mainContent h1, #content #mainContent h2    {
+
+	/* Styling for main headings */
+
+	color: (0,0,0);
+
+}
+
+#content #mainContent h3 {
+
+	/*Captions ot Taglines */
+
+	font-family: source-sans-pro, sans-serif;
+
+	font-style: normal;
+
+	font-weight: 200;
+
+	color: (0,0,0);
+
+}
+
+#content #mainContent #bannerImage {
+
+	/*Container for main banner image */
+
+	width: 100%;
+
+	background-color: rgb(169,169,169);
+
+}
+
+#content #mainContent p {
+
+	/* All paragraphs under maincontent */
+
+	color: rgb(255,255,255);
+
+	font-family: source-sans-pro, sans-serif;
+
+	font-style: normal;
+
+	font-weight: 200;
+
+	text-align: justify;
+
+}
+
+#content #mainContent #authorInfo {
+
+	/* Author info section */
+
+	background-color: rgb(169,169,169);
+    
+}
+
+#content #mainContent #authorInfo h2, #content #mainContent #authorInfo p {
+
+	color: rgba(0,0,0);
+
+	padding-left: 2%;
+
+	padding-top: 11px;
+
+}
+
+#content #mainContent #authorInfo p {
+
+	color: rgba(0,0,0);
+
+	padding-left: 2%;
+
+	padding-top: 0px;
+
+	padding-bottom: 11px;
+
+	padding-right: 2%;
+
+}
+
+footer article  {
+
+	/* Footer articles */
+
+	width: 46%;
+
+	float: left;
+
+	padding-left: 2%;
+
+	padding-right: 2%;
+
+	text-align: justify;
+
+	font-family: arial;
+
+	font-style: normal;
+
+	font-weight: 200;
+
+	color: black;
+
+}
+
+footer article h3  {
+
+	/* Footer article titles */
+
+	text-align: center;
+
+	font-family: arial;
+
+	font-style: normal;
+
+	font-weight: 400;
+
+}
+
+#mainContent {
+
+	/* Container for the blog post in individal blog view */
+
+	padding-left: 2%;
+
+	width: 71%;
+
+	float: left;
+
+	padding-right: 2%;
+
+	padding-top: 41px;
+
+}
+
+#mainwrapper #content #sidebar {
+
+	/* Sidebar*/
+
+	width: 19%;
+
+	padding-left: 2%;
+
+	padding-right: 2%;
+
+	float: left;
+
+	background: rgb(128,128,128);
+    
+
+	margin-top: 150px;
+
+	padding-top: 32px;
+
+}
+
+#mainwrapper {
+
+	/* Container of all content */
+
+	width: 80%;
+
+	overflow: auto;
+
+	margin-left: 10%;
+
+}
+
+#content #sidebar input {
+
+	/* Search box in sidebar */
+
+	width: 98%;
+
+	height: 32px;
+
+}
+
+#content #sidebar #adimage {
+
+	/* Container for Image in sidebar */
+
+	width: 100%;
+
+	background-color: rgba(208,207,207,1.00);
+
+	margin-top: 46px;
+
+	float: none;
+
+	overflow: auto;
+
+}
+
+nav ul li {
+
+	list-style-type: none;
+
+	padding-top: 8px;
+
+	padding-bottom: 8px;
+
+}
+
+nav ul {
+
+	padding-left: 0%;
+
+}
+
+nav ul li a {
+
+	color: #000000;
+
+	text-decoration: none;
+
+}
+
+#footerbar {
+
+	/* Footer bar at the bottom of the page */
+
+	height: 18px;
+
+	clear: both;
+
+	background-color: rgba(208,207,207,1.00);
+
+	width: 100%;
+
+}
+
+footer {
+
+	/* Container for footer artices */
+
+	width: 71%;
+
+	padding-left: 2%;
+
+	padding-right: 2%;
+
+}
+
+.notOnDesktop {
+
+	/*element to be displayed only in mobile view and tabet view */
+
+	display: none;
+
+}
+
+#mainContent #bannerImage img {
+
+	/* Actual banner image */
+
+	width: 100%;
+
+}
+
+#sidebar #adimage img {
+
+	/* Image in sidebar */
+
+	width: 100%;
+
+	float: left;
+
+}
+
+
+
+#mainwrapper header nav a {
+
+	/* Links in header */
+
+	color: rgba(146,146,146,1.00);
+
+	text-decoration: none;
+
+}
+
+
+
+/* Tablet view */
+
+@media screen and (max-width:769px){
+
+.notOnDesktop {
+
+	/* Search box shown only in mobile view and Tablet view */
+
+	display: block;
+
+	text-align: right;
+
+	padding-right: 8px;
+
+	padding-top: 8px;
+
+	padding-bottom: 8px;
+
+	width: 96%;
+
+}
+
+#content .notOnDesktop input {
+
+	height: 28px;
+
+}
+
+#mainContent {
+
+	/* Container for the blog post */
+
+	padding-top: 0px;
+
+	float: none;
+
+	width: 96%;
+
+}
+
+#sidebar input {
+
+	/* Search box in sidebar */
+
+	display: none;
+
+}
+
+#mainwrapper #content #sidebar {
+
+	/* Sidebar*/
+
+	float: none;
+
+	width: 92%;
+
+	padding-top: 13px;
+
+	overflow: auto;
+
+	margin-top: 3px;
+
+	margin-left: 2%;
+
+	padding-bottom: 13px;
+
+}
+
+#content #sidebar #adimage {
+
+	/* Image in sidebar */
+
+	width: 60%;
+
+	margin-top: 0px;
+
+	float: left;
+
+}
+
+#content #sidebar nav {
+
+	/* Navigation links in sidebar */
+
+	width: 36%;
+
+	float: left;
+
+	padding-left: 4%;
+
+}
+
+#sidebar nav ul {
+
+	margin-top: 0px;
+
+}
+
+footer {
+
+	/* Footer region */
+
+	width: 96%;
+
+	padding-left: 2%;
+
+	padding-right: 2%;
+
+}
+
+#content footer article {
+
+	/*Each footer article */
+
+	width: 46%;
+
+}
+
+#mainwrapper header {
+
+	/* Header */
+
+	width: 100%;
+
+}
+
+}
+
+
+
+/* Mobile view */
+
+@media screen and (max-width:480px){
+
+#mainwrapper header #logo {
+
+	/* Company Logo text in header */
+
+	width: 96%;
+
+	margin-left: 2%;
+
+}
+
+#mainwrapper header nav {
+
+	/*navigation links in header */
+
+	text-align: center;
+
+	background-color: #000000;
+
+	width: 98%;
+
+}
+
+#content #sidebar #adimage {
+
+	/* Container for image in sidebar */
+
+	width: 100%;
+
+}
+
+#content #sidebar nav {
+
+	/* Navigation bar for links in sidebar */
+
+	width: 96%;
+
+	padding-top: 7px;
+
+}
+
+#sidebar nav ul li {
+
+	display: inline-block;
+
+	width: 32%;
+
+	text-align: center;
+
+}
+
+#mainwrapper #content #sidebar {
+
+	/* sidebar */
+
+	padding-bottom: 0px;
+
+}
+
+#content .notOnDesktop {
+
+	/* Search box shown only in mobile and tablet view */
+
+	width: 100%;
+
+	text-align: center;
+
+	padding-left: 0px;
+
+	padding-right: 0px;
+
+}
+
+#content .notOnDesktop input {
+
+	width: 80%;
+
+	text-align: center;
+
+}
+
+#content #mainContent h3 {
+
+	/* Title under maincontent, if any */
+
+	font-size: 14px;
+
+}
+
+#content footer article {
+
+	/* Each foter article */
+
+	width: 96%;
+
+}
+
+<style>
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;margin:0}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #000000;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
